@@ -49,7 +49,7 @@ header {
     width: 500px;
     height: 380px;
     margin-left: 150px;
-    }
+}
 
 h1 {
     font-weight: 900;
@@ -195,6 +195,72 @@ footer {
 .btn-footer:active {
     opacity: 0.8;
     transition: ease;
+}
+
+@media screen and (max-width:700px) {
+
+    header {
+        display: none;
     }
 
+    .container-left {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 300px;
+        height: 80px;
+    }
 
+    .img-main {
+        left: -100px;
+        top: 550px;
+        width: 300px;
+        height: 250px;
+        margin-left: 150px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        color: #464646;
+    }
+
+    .p-main {
+        font-size: 20px;
+        line-height: 25px;
+        width: 400px;
+        padding: 10px;
+        margin: 25px 10px 15px 0px;
+        content: "Welcome to our literary sanctuary, where every page holds a world of wonders waiting to be discovered.";
+    }
+
+    .btn-main {
+        margin: 3px 10px 10px 10px;
+    }
+
+    .p2-main {
+        font-weight: 700;
+        font-size: 24px;
+        width: 400px;
+        padding: 3px;
+        position: relative;
+        left: 5px;
+        top: 290px;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 100px 30px 90px;
+    }
+
+    .socialmedia {
+        display: flex;
+        align-items: center;
+        margin: 300px 10px 20px 15px;
+
+    }
+}
